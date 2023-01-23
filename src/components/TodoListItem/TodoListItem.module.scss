@@ -1,0 +1,18 @@
+.todoListItem {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todoListItemButtons {
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  grid-column-gap: 0.7rem;
+  align-items: center;
+}
+
+.badge {
+  height: min-content;
+}
+
+
